@@ -27,8 +27,8 @@ variable "instance_type" {
 variable "private_key" {
   type = map(string)
   default = {
-    "name" = "mosipuser"  // Name as given while creating keys on AWS console 
-    "local_path" = "~/.ssh/mosipuser.pem" // Location on the machine from where you are running terraform
+    "name" = "mosip-aws"  // Name as given while creating keys on AWS console 
+    "local_path" = "~/.ssh/mosip-aws.pem" // Location on the machine from where you are running terraform
   } 
 }
 
