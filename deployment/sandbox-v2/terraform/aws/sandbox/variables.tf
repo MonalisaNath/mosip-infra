@@ -1,4 +1,4 @@
-variable "Mosip_sandbox" { //Change this to your sandbox name.
+variable "sandbox_name" { //Change this to your sandbox name.
   default = "qa"  // This is informational.  A tag will be added with this name.
 }
 
